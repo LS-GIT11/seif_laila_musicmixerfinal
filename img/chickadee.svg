@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.29 85.16">
+  <g id="dee-icon">
+    <g id="chick-beak">
+      <polygon id="bottom-beak" points="88.28 9.47 80.04 12.61 74.31 14.02 77.08 11.65 88.28 9.47" fill="#a7a2b4" stroke="#000" stroke-miterlimit="10" stroke-width=".35"/>
+      <polygon id="top-beak" points="79.45 8.39 88.28 9.47 76.65 12.16 79.45 8.39" fill="#a7a2b4" stroke="#000" stroke-miterlimit="10" stroke-width=".35"/>
+    </g>
+    <g id="chick-tail">
+      <polygon id="_Path_" data-name="&amp;lt;Path&amp;gt;" points="39.49 57.27 2.92 58.46 37 45.27 63.39 57.48 39.49 57.27" fill="#948d8f" stroke="#231f20" stroke-miterlimit="10"/>
+    </g>
+    <g id="chick-feet">
+      <g id="its-rightfoot">
+        <polyline points="69.57 63.54 80.17 67.72 82.95 73.2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.75"/>
+        <polyline points="85.67 67.26 80.17 67.72 86.1 70.76" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.75"/>
+      </g>
+      <g id="its-leftfoot">
+        <polyline points="56.28 69.02 61.37 78.96 59.71 84.84" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.75"/>
+        <polyline points="66.3 82.49 61.37 78.96 63.66 84.84" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.75"/>
+      </g>
+    </g>
+    <g id="chick-body">
+      <polygon id="tummy" points="80.24 23.21 87.05 30.28 84.29 47.92 63.8 63.13 47.54 66.02 39.49 57.27 40.85 40.87 52.24 26.65 75.59 26.17 80.24 23.21" fill="#d1c8c3" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <polygon id="tummypatch" points="75.59 26.17 87.05 30.28 82.47 20.35 75.59 26.17" fill="#eae4e5" stroke="#231f20" stroke-miterlimit="10"/>
+      <polyline id="its-right" points="72.89 56.38 71.37 64.13 64.69 62.84 72.89 56.38" fill="#d1c8c3" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <polyline id="its-left" points="58.19 64.13 51.24 65.36 56.3 70.71 58.19 64.13" fill="#d1c8c3" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="chick-wing">
+      <polygon id="wing" points="52.73 26.53 33.99 43.4 35.8 60.09 58.46 41.8 58.12 26.53 52.73 26.53" fill="#948d8f" stroke="#231f20" stroke-miterlimit="10"/>
+    </g>
+    <g id="chick-head">
+      <polygon id="head" points="52.24 26.65 54.04 8.39 56.45 4.57 65.9 .52 76.93 2.17 81.22 8.62 81.22 8.62 74.43 14.3 82.42 12.03 82.85 18.51 82.47 20.35 75.59 26.17 52.24 26.65" fill="#332f40" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="eye" cx="70.13" cy="9.51" rx="1.52" ry=".75" transform="translate(-.09 18.35) rotate(-14.9)" stroke="#231f20" stroke-miterlimit="10" stroke-width=".95"/>
+      <polyline id="pattern" points="79.25 10.27 65.56 11.03 55.01 9.47 53.53 13.58 52.24 26.65 69.31 26.3 76.95 13.58 74.43 14.3 79.25 10.27" fill="#eae4e5" stroke="#231f20" stroke-miterlimit="10"/>
+      <ellipse id="eye-light" cx="70.59" cy="8.69" rx=".66" ry=".3" fill="#fff"/>
+    </g>
+  </g>
+</svg>

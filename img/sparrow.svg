@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.52 73.2">
+  <g id="spar-icon">
+    <g id="chick-beak">
+      <polygon id="bottom-beak" points="109.23 17.47 100.37 17.96 94.77 16.18 98.23 15.03 109.23 17.47" fill="#a7a2b4" stroke="#000" stroke-miterlimit="10" stroke-width=".35"/>
+      <polygon id="top-beak" points="101.65 12.9 109.42 17.24 97.65 15.34 101.65 12.9" fill="#a7a2b4" stroke="#000" stroke-miterlimit="10" stroke-width=".35"/>
+    </g>
+    <g id="chick-tail">
+      <polygon id="_Path_" data-name="&amp;lt;Path&amp;gt;" points="54.55 46.59 2.97 65.74 48.43 31.06 68.27 52.32 54.55 46.59" fill="#b07d40" stroke="#231f20" stroke-miterlimit="10"/>
+      <g id="tail-lines">
+        <line x1="41.58" y1="48.4" x2="4.91" y2="65.02" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+        <line x1="29.37" y1="50.15" x2="10.16" y2="60.26" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+      </g>
+    </g>
+    <g id="chick-feet">
+      <g id="its-rightfoot">
+        <polyline points="71.49 60.26 79.87 66.07 80.38 70.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.52"/>
+        <polyline points="85.22 67.28 79.87 66.07 84.29 69.8" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.52"/>
+      </g>
+      <g id="its-leftfoot">
+        <polyline points="56.88 60.3 57.86 68.52 54.05 72.08" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.52"/>
+        <polyline points="61.15 72.31 57.86 68.52 57.76 73.18" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.52"/>
+      </g>
+    </g>
+    <g id="chick-body">
+      <polygon id="tummy" points="99.7 24.89 97.65 35.98 92.34 48.7 66.53 57.71 50.37 54.25 40.09 47.41 53.66 28.44 69.57 19.56 91.37 27.92 99.7 24.89" fill="#d8d8d6" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <polyline id="its-right" points="78.41 53.47 73.16 61.48 67.46 57.78 77.49 54.88" fill="#d8d8d6" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <polyline id="its-left" points="60.95 56.51 54.05 55.04 56.72 61.9 60.95 56.51" fill="#d8d8d6" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="chick-wing">
+      <polygon id="wing" points="67.46 17.96 46.35 28.2 24.79 52.32 69.62 35.94 85.52 25.67 67.46 17.96" fill="#b07d40" stroke="#231f20" stroke-miterlimit="10"/>
+      <g id="wing-lines">
+        <line x1="79.07" y1="23.2" x2="69.62" y2="35.94" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+        <line x1="73.58" y1="21.1" x2="63.58" y2="38.14" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+        <line x1="67.46" y1="17.96" x2="60.95" y2="39.1" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+        <line x1="24.79" y1="52.32" x2="62.36" y2="34.54" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+        <line x1="32.9" y1="43.25" x2="64.6" y2="27.23" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+        <line x1="43.79" y1="31.06" x2="66.53" y2="20.96" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+      </g>
+    </g>
+    <g id="chick-head">
+      <polygon id="head" points="67.46 17.96 73.03 7.99 78.12 3.32 81.79 .69 92.07 .5 101.67 6.19 103.21 13.79 103.21 13.79 94.23 17.17 102.48 18.08 100.99 23.56 98.95 28.94 91.37 27.92 67.46 17.96" fill="#ddd" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+      <polygon id="pattern" points="79.39 13.45 84.78 20.32 96.14 16.5 83.77 13.45 79.39 13.45" fill="#a7a2b4" stroke="#231f20" stroke-miterlimit="10"/>
+      <polygon points="102.41 9.84 90.53 5.47 82.15 5.87 74.64 6.52 81.79 .69 92.07 .5 101.67 6.19 102.41 9.84" fill="#86381d" stroke="#231f20" stroke-miterlimit="10"/>
+      <polygon points="101.4 14.21 92.23 14.62 78.39 11.72 77.49 13.17 73.58 9.84 76.66 14.62 79.39 13.45 96.14 16.5 101.4 14.21" fill="#1d1d24" stroke="#000" stroke-miterlimit="10" stroke-width=".49"/>
+      <ellipse id="eye" cx="89.45" cy="14.12" rx="1.26" ry="2.54" transform="translate(64.14 101.07) rotate(-82.75)" stroke="#231f20" stroke-miterlimit="10" stroke-width="1.59"/>
+      <ellipse id="eye-light" cx="90.68" cy="13.15" rx=".51" ry="1.1" transform="translate(44.31 92.18) rotate(-67.85)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

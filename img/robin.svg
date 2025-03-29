@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.99 88.55">
+  <g id="robin-icon">
+    <g id="rob-beak">
+      <polygon id="bottom-beak" points="2.3 13.29 13.84 16.37 22.16 16.26 17.52 13.98 2.3 13.29" fill="#e0b043" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
+      <polygon id="top-beak" points="13.1 10.33 2.35 13 18.28 14.53 13.1 10.33" fill="#e0b043" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
+    </g>
+    <g id="rob-tail">
+      <polygon id="_Path_" data-name="&amp;lt;Path&amp;gt;" points="66.98 49.11 90.66 71.08 39.93 69.07 43.91 55.45 66.98 49.11" fill="#565651" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+    <g id="rob-feet">
+      <g id="its-rightfoot">
+        <polyline points="37.9 63.32 27.62 71.08 26.23 78.02" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        <polyline points="18.22 72.71 27.62 71.08 20.1 78.02" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="its-leftfoot">
+        <polyline points="54.23 65.47 55.33 78.3 60.48 83.17" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        <polyline points="51.73 87.13 55.33 78.3 57.22 88.36" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="rob-body">
+      <polygon id="tummy" points="18.78 26.67 16.57 34.57 23.77 50.91 44.96 61.02 61.44 59.63 66.98 49.11 61.44 33.61 46.76 22.79 24.05 28.33 18.78 26.67" fill="#dd7f2a" stroke="#000" stroke-miterlimit="10"/>
+      <polyline id="its-right" points="35.95 56.72 37.9 63.93 43.91 60.52 35.95 56.72" fill="#565651" stroke="#000" stroke-miterlimit="10"/>
+      <polyline id="its-left" points="50.64 60.54 57.69 59.95 54.17 66.42 50.64 60.54" fill="#565651" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+    <g id="rob-wing">
+      <polygon id="wing" points="46.76 22.79 66.98 35.77 68.19 52.5 42.59 38.56 41.77 24.01 46.76 22.79" fill="#565651" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+    <g id="rob-head">
+      <polygon id="head" points="46.76 22.79 33.46 4.09 25.57 3.26 26.82 1.05 16.57 5.48 13.1 10.33 14.07 12.82 22.11 16.56 13.8 16.42 15.04 22.79 18.78 26.67 24.05 28.33 46.76 22.79" fill="#565651" stroke="#000" stroke-miterlimit="10"/>
+      <polygon id="pattern" points="13.8 16.42 20.56 16.53 17.31 25.14 15.04 22.79 13.8 16.42" fill="#e0e0e0" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
+      <g id="pattern-2" data-name="pattern">
+        <polygon id="pattern-3" data-name="pattern" points="19.88 9.39 16.23 12.43 19.44 13.4 20.39 13.74 22.59 14.53 25.87 13.29 26.52 11.15 23.27 9.1 19.88 9.39" fill="#e0e0e0" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
+      </g>
+      <ellipse id="eye" cx="22.16" cy="11.81" rx="2.54" ry="1.03" stroke="#000" stroke-miterlimit="10" stroke-width="1.43"/>
+      <ellipse id="eye-light" cx="20.79" cy="11.04" rx="1.18" ry=".47" fill="#fff"/>
+    </g>
+  </g>
+</svg>
