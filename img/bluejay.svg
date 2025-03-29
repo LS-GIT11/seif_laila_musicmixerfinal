@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152.5 124.34">
+  <g id="blue-icon">
+    <g id="blue-beak">
+      <polygon id="bottom-beak" points="2.66 28.28 15.31 33.76 23.48 33.57 18.92 29.51 2.66 28.28" fill="#353639" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
+      <polygon id="top-beak" points="14.58 23 1.09 27.75 23.6 30.48 14.58 23" fill="#353639" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
+    </g>
+    <g id="blue-tail">
+      <polygon id="_Path_" data-name="&amp;lt;Path&amp;gt;" points="72.37 65.72 79.59 63.36 101.34 75.29 149.85 103.72 83.62 92.05 56.49 76.96 72.37 65.72" fill="#608cc8" stroke="#000" stroke-miterlimit="10"/>
+      <polygon points="73.57 70.62 136.42 96.28 82.69 65.19 73.57 70.62" fill="#85bddc" stroke="#000" stroke-miterlimit="10"/>
+      <polygon points="69.39 73.11 144.56 102.79 64.54 75.99 69.39 73.11" fill="#85bddc" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+    <g id="blue-feet">
+      <g id="its-rightfoot">
+        <polyline points="40.39 96.71 32.75 108.47 35.73 114.92" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.29"/>
+        <polyline points="21.83 115.04 32.75 108.47 27.87 118.38" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.29"/>
+      </g>
+      <g id="its-leftfoot">
+        <polyline points="64.84 102.62 64.22 114.5 70.64 120.22" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.29"/>
+        <polyline points="57.56 121.75 64.22 114.5 65.17 124.23" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.29"/>
+      </g>
+    </g>
+    <g id="blue-body">
+      <polygon id="tummy" points="14.41 42.74 10.37 54.43 19.39 78.08 51.74 99.67 75.73 98.08 83.62 81.56 75.9 57.04 55.37 39.22 22.15 45.82 14.41 42.74" fill="#cecac3" stroke="#000" stroke-miterlimit="10" stroke-width="1.34"/>
+      <polyline id="its-right" points="34.94 88.45 37.17 102.23 46.23 96.84 34.94 88.45" fill="#608cc8" stroke="#000" stroke-miterlimit="10" stroke-width="1.34"/>
+      <polyline id="its-left" points="60.1 99.12 70.34 98.44 65.13 108.87 60.1 99.12" fill="#608cc8" stroke="#000" stroke-miterlimit="10" stroke-width="1.34"/>
+    </g>
+    <g id="blue-wing">
+      <polygon id="tail" points="55.37 39.22 87.03 63.36 99.5 75.27 63.18 72.06 35.92 55.11 38.52 43.11 55.37 39.22" fill="#608cc8" stroke="#000" stroke-miterlimit="10"/>
+      <polygon points="43.12 59.59 69.43 49.94 71.43 51.47 52.12 65.19 43.12 59.59" fill="#f1f5f6" stroke="#000" stroke-miterlimit="10"/>
+      <polygon points="64.54 56.37 95.5 71.44 69.03 53.18 64.54 56.37" fill="#85bddc" stroke="#000" stroke-miterlimit="10"/>
+      <polygon points="62.49 57.83 99.5 75.27 60.1 59.52 62.49 57.83" fill="#85bddc" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+    <g id="blue-head">
+      <polygon id="head" points="55.37 39.22 46.26 20.09 44.85 16.52 43.64 4.03 35.61 14.32 42.18 1.85 15.98 17.97 11.34 24.42 15.7 25.94 23.42 32.71 17.75 33.76 12.27 32.53 13.94 41.01 14.41 42.74 18.31 46.53 55.37 39.22" fill="#608cc8" stroke="#000" stroke-miterlimit="10" stroke-width="1.34"/>
+      <g id="pattern">
+        <polygon id="pattern-2" data-name="pattern" points="19.76 22.38 25.45 19.8 31.34 21.67 36.35 24.34 31.89 25.47 23.19 26.74 19.54 26.93 17.55 26.25 17.55 24.98 19.76 22.38" fill="#d2d2ce" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
+        <polygon id="pattern-3" data-name="pattern" points="14.57 43.39 12.27 32.53 17.75 33.76 23.42 32.71 21.84 31.33 21.95 27.32 29.45 25.74 34.94 25.74 34.64 26.93 30.69 33.35 26.4 39.22 22.36 41.02 14.57 43.39" fill="#d2d2ce" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
+        <polygon id="pattern-4" data-name="pattern" points="13.72 21.11 17.07 23.64 19.76 22.38 18.42 25.47 19.54 26.93 35.15 24.02 31.34 21.67 37.24 22.14 44.85 16.52 39.97 25.47 37.29 26.25 35.92 28.28 26.4 39.22 18.31 46.53 12.35 45.35 14.41 42.74 20.93 39.22 25.25 38.75 33.35 26.25 25.34 26.64 21.95 27.32 21.84 31.33 15.7 25.94 11.34 24.42 13.72 21.11" fill="#18181a" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
+      </g>
+      <ellipse id="eye" cx="23.19" cy="26.25" rx="2.26" ry="1.27" stroke="#000" stroke-miterlimit="10" stroke-width="1.51"/>
+      <ellipse id="eye-light" cx="21.87" cy="25.44" rx=".89" ry=".45" fill="#fff"/>
+    </g>
+  </g>
+</svg>
