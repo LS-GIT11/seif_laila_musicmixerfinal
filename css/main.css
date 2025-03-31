@@ -4,7 +4,7 @@
 
 body{
     background-image: url(../img/98884-OLRRMW-655.jpg);
-    background-size: contain;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 
@@ -18,14 +18,25 @@ header{
 }
 
 #birds{
-    padding: 25px;
+    padding: 10px;
     border: solid 3px #06540a;
     border-radius: 5px;
     background-color: aliceblue;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .bird{
-    max-width: 20%;
+    width: 100%;
+    max-width: 170px;
+    margin: 10px;
+
 }
 
 li{
