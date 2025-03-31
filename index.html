@@ -25,9 +25,6 @@
               </g>
             </g>
           </svg>
-          
-          <button>about</button>
-          <button>all birds</button>
 
     </header>
 
@@ -42,10 +39,12 @@
         </ul>
     </section>
 
+    <audio src="audio/bluejay.wav"></audio>
+
     <section>
         <h2 class="hidden">bird's default spot/drag from</h2>
         <ul id="birds" class="grid-con">
-            <li id="bluejay" class="col-span-1">
+            <li data-trackref="bluejay" draggable="true" id="bluejay">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152.5 124.34">
                     <g id="blue-icon">
                       <g id="blue-beak">
@@ -92,8 +91,8 @@
                   </svg>
             </li>
 
-            <li id="cardinal" class="col-span-1"> 
-                <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.42 126.88">
+            <li data-trackref="cardinal" draggable="true" id="cardinal"> 
+                <svg id="Layer_2" class="bird" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.42 126.88">
                     <g id="card-icon">
                       <g id="card-beak">
                         <polygon id="bottom-beak" points="1.32 28.28 12.67 33.76 20.84 33.57 16.28 29.51 1.32 28.28" fill="#e72e28" stroke="#000" stroke-miterlimit="10" stroke-width=".5"/>
@@ -130,7 +129,7 @@
                   </svg>
             </li>
 
-            <li id="chickadee" class="col-span-1">
+            <li data-trackref="chickadee" draggable="true" id="chickadee">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.29 85.16">
                     <g id="dee-icon">
                       <g id="chick-beak">
@@ -169,7 +168,7 @@
                   </svg>
             </li>
             
-            <li id="kingfisher" class="col-span-1">
+            <li data-trackref="kingfisher" draggable="true" id="kingfisher">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.18 78.55">
                     <g id="king-icon">
                       <g id="king-beak">
@@ -262,7 +261,7 @@
                   </svg>
             </li>
 
-            <li id="robin" class="col-span-1">
+            <li data-trackref="robin" draggable="true" id="robin">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.99 88.55">
                     <g id="robin-icon">
                       <g id="rob-beak">
@@ -302,8 +301,8 @@
                     </g>
                   </svg>
             </li>
-
-            <li id="sparrow" class="col-span-1">
+<!--when i first wrote "draggable" since i was comparing this project to my crushing bugs one, it auto added the ...="true" i thought that was wrong since it was not on the crushing bugs assignment... when doing js, it was not dragging, so i thought i had to maybe add the true here to confirm it was draggable. it ended up working and i was happy-->
+            <li data-trackref="sparrow" draggable="true" id="sparrow">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.52 73.2">
                     <g id="spar-icon">
                       <g id="chick-beak">
@@ -356,6 +355,15 @@
             </li>
         </ul>
     </section>
+
+    <section class="audio-controls">
+      <button id="playButton">PLAY</button>
+      <button id="pauseButton">PAUSE</button>
+      <button id="rewindButton">REWIND</button>
+      <input id="volumeControl" type="range" min="0" max="100" step="1">
+    </section>
+
+<script src="js/main.js"></script>
     
 </body>
 </html>
