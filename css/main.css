@@ -7,6 +7,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #6aaa55;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -72,4 +73,49 @@ button:hover{
     width: 400px;
     height: 30px;
     margin: 10px;
+}
+
+
+.lightbox { 
+    width: 100vw;
+    height: 100vh;
+    /* reading "vw = viewport width => screen width" was interesting from the marvel build... */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 5000;
+    display: none;
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lightbox_close:hover { 
+    color: #8c1010; 
+}
+
+.lightbox article {
+    width: 55%;
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+}
+
+.lightbox:target { 
+    display: block; 
+}
+
+.info-button {
+    background: #06540a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
