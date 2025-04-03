@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BirdBox</title>
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+
 </head>
 <body>
 <h1 class="hidden">music mixer - birdbox</h1>
-    <header class="grid-con" id="logo">
-      
-        <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246.05 59.51">
+    <header class="grid-con">
+<div id="logo" class="col-span-1">
+    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246.05 59.51">
             <g id="logo">
               <g id="Bird">
                 <path id="B" d="M19.76,12.95c11.69,0,14.73,5.66,14.73,11.63,0,6.53-3.79,8.45-5.78,9.45,5.53,2.18,7.21,5.72,7.03,10.69-.31,9.08-7.21,13.49-18.22,13.49H1.3V12.95h18.46ZM20.07,31.42c4.85,0,8.58-2.11,8.58-6.65,0-4.04-3.23-6.09-8.89-6.09h-8.21v12.75h8.52ZM20.82,50.69c5.66,0,8.27-3.48,8.27-6.96,0-4.66-3.61-6.9-7.77-6.9h-9.51v13.86h9.01Z" fill="#45b649" stroke="#000" stroke-miterlimit="10" stroke-width="2.59"/>
@@ -25,13 +27,14 @@
               </g>
             </g>
           </svg>
+</div>
 
     </header>
 
     <section>
         <h2 class="hidden">drag to area</h2>
         <ul class="grid-con" id="drop-zones">
-            <li class="dz col-span-1" id="1"></li>
+            <li class="dz col-span-1 m-col-start-3" id="1"></li>
             <li class="dz col-span-1" id="2"></li>
             <li class="dz col-span-1" id="3"></li>
             <li class="dz col-span-1" id="4"></li>
@@ -45,7 +48,7 @@
     <section>
         <h2 class="hidden">bird's default spot/drag from</h2>
         <ul id="birds" class="grid-con">
-            <li data-trackref="bluejay" draggable="true" id="bluejay">
+            <li data-trackref="bluejay" draggable="true" id="bluejay" class="col-span-1 m-col-span-1 m-col-start-2">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152.5 124.34">
                     <g id="blue-icon">
                       <g id="blue-beak">
@@ -92,7 +95,7 @@
                   </svg>
             </li>
 
-            <li data-trackref="cardinal" draggable="true" id="cardinal"> 
+            <li data-trackref="cardinal" draggable="true" id="cardinal" class="col-span-1 m-col-span-1"> 
                 <svg id="Layer_2" class="bird" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.42 126.88">
                     <g id="card-icon">
                       <g id="card-beak">
@@ -130,7 +133,7 @@
                   </svg>
             </li>
 
-            <li data-trackref="chickadee" draggable="true" id="chickadee">
+            <li data-trackref="chickadee" draggable="true" id="chickadee" class="col-span-1 m-col-span-1">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.29 85.16">
                     <g id="dee-icon">
                       <g id="chick-beak">
@@ -169,7 +172,7 @@
                   </svg>
             </li>
             
-            <li data-trackref="kingfisher" draggable="true" id="kingfisher">
+            <li data-trackref="kingfisher" draggable="true" id="kingfisher" class="col-span-1 m-col-span-1">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.18 78.55">
                     <g id="king-icon">
                       <g id="king-beak">
@@ -262,7 +265,7 @@
                   </svg>
             </li>
 
-            <li data-trackref="robin" draggable="true" id="robin">
+            <li data-trackref="robin" draggable="true" id="robin" class="col-span-1 col-start-2 m-col-span-1">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.99 88.55">
                     <g id="robin-icon">
                       <g id="rob-beak">
@@ -303,7 +306,7 @@
                   </svg>
             </li>
 <!--when i first wrote "draggable" since i was comparing this project to my crushing bugs one, it auto added the ...="true" i thought that was wrong since it was not on the crushing bugs assignment... when doing js, it was not dragging, so i thought i had to maybe add the true here to confirm it was draggable. it ended up working and i was happy-->
-            <li data-trackref="sparrow" draggable="true" id="sparrow">
+            <li data-trackref="sparrow" draggable="true" id="sparrow" class="col-span-1 col-start-3 m-col-span-1">
                 <svg class="bird" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.52 73.2">
                     <g id="spar-icon">
                       <g id="chick-beak">
@@ -357,11 +360,11 @@
         </ul>
     </section>
 
-    <section class="audio-controls">
+    <section id="audio-controls">
       <button id="playButton">PLAY</button>
       <button id="pauseButton">PAUSE</button>
       <button id="rewindButton">REWIND</button>
-      <input id="volumeControl" type="range" min="0" max="100" step="1">
+      <input id="volumeControl" type="range" min="0" max="100" step="1" class="col-span-1">
     </section>
 
 <script src="js/main.js"></script>
