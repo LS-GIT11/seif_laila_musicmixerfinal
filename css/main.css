@@ -9,13 +9,16 @@ body{
     background-color: #6aaa55;
 }
 
+
+
 header{
     padding: 20px;
+    background-color: #6aaa55;
+    margin: 0;
 }
 
 #logo{
-    width: 35%;
-    max-width: 300px;
+    width: 300px;
 }
 
 #birds{
@@ -23,27 +26,6 @@ header{
     border: solid 5px #06540a;
     border-radius: 5px;
     background-color: aliceblue;
-    flex-direction: row;
-    
-    /*i was so sick of the sizing changing as i scaled the page, so i forced it to stay the same...*/
-    width: 1000px;
-    max-height: 120px;
-    min-height: 120px;
-    height: 120px;
-
-    
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.bird{
-    width: 105px;
-    margin: 10px;
-
 }
 
 li{
@@ -51,18 +33,43 @@ li{
 }
 
 .dz{
-    max-width: 150px;
-    min-width: 150px;
-    width: 150px;
-    max-height: 120px;
-    min-height: 120px;
-    height: 120px;
+    width: 115px;
+    height: 125px;
     border: 3px solid #06540a;
     border-radius: 5px;
-    margin: 5px;
     background-color: aliceblue;
+    overflow-x: visible;
+    overflow-y: visible;
 }
 
 button{
-  
+  border: #06540a solid 3px;
+  border-radius: 5px;
+  background-color: #06540a;
+  color: aliceblue;
+  padding: 15px;
+  width: 137px;
+}
+
+button:hover{
+    background-color: #6aaa55;
+    color: #06540a;
+    font-weight: bolder;
+}
+
+#audio-controls{
+    padding: 30px;
+    background-color: #6aaa55;
+}
+
+#bluejay:hover, #cardinal:hover, #chickadee:hover, #kingfisher:hover, #robin:hover, #sparrow:hover{
+    filter: brightness(120%);
+    filter: contrast(140%);
+}
+
+#volumeControl {
+    background: #06540a;
+    width: 400px;
+    height: 30px;
+    margin: 10px;
 }
