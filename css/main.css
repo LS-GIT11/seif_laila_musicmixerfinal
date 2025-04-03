@@ -4,8 +4,9 @@
 
 body{
     background-image: url(../img/98884-OLRRMW-655.jpg);
-    background-size:cover;
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-color: #6aaa55;
 }
 
 header{
@@ -19,16 +20,13 @@ header{
 
 #birds{
     padding: 10px;
-    border: solid 3px #06540a;
+    border: solid 5px #06540a;
     border-radius: 5px;
     background-color: aliceblue;
     flex-direction: row;
-    justify-content: center;
-
+    
     /*i was so sick of the sizing changing as i scaled the page, so i forced it to stay the same...*/
-    max-width: 900px;
-    min-width: 900px;
-    width: 900px;
+    width: 1000px;
     max-height: 120px;
     min-height: 120px;
     height: 120px;
@@ -63,4 +61,8 @@ li{
     border-radius: 5px;
     margin: 5px;
     background-color: aliceblue;
+}
+
+button{
+  
 }
